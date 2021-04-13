@@ -7,6 +7,7 @@ public static void main(String[] args) {
  int b;
  int opcion;
  int resultado = 0;
+ String julito = "hola";
  Scanner teclado = new Scanner(System.in);
  
  do{
