@@ -14,9 +14,9 @@ public static void main(String[] args) {
 	 opcion = teclado.nextInt();
  }while(opcion < 1 && opcion > 4);
 
-System.out.println("Ingrese el primer numero");
+System.out.println("Ingrese el primer numero: ");
 a = teclado.nextInt();
-System.out.println("Ingrese el segundo numero");
+System.out.println("Ingrese el segundo numero: ");
 b = teclado.nextInt();
 
 
