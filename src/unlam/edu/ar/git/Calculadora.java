@@ -6,7 +6,7 @@ public static void main(String[] args) {
  int a;
  int b;
  int opcion;
- int resultado;
+ int resultado = 0;
  Scanner teclado = new Scanner(System.in);
  
  do{
@@ -20,15 +20,22 @@ System.out.println("Ingrese el segundo numero");
 b = teclado.nextInt();
 
 
- if(opcion==1){
- 	resultado = a + b;
- }else if(opcion==2){
- resultado = a - b;
- }else if(opcion==3){
- resultado = a * b;
- }else{
- resultado = a / b;
- }
- System.out.println("El resultado es " + resultado);
+ switch (opcion) {
+case 1:
+	resultado = a + b;
+	break;
+case 2:
+	resultado = a - b;
+	break;
+case 3:
+	resultado = a * b;
+	break;
+case 4:
+	resultado = a / b;
+	break;
+default:
+	break;
+}
+System.out.println("El resultado es " + resultado);
  }
 }
